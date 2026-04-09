@@ -20,6 +20,7 @@ A Python GUI application for browsing and downloading release assets from GitHub
 
 1. Clone or download this repository:
    ```bash
+   git clone https://github.com/datachaki/GHInstaller
    cd ghinstaller
    ```
 
