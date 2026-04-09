@@ -41,13 +41,16 @@ Run the application:
 ```bash
 python main.py
 ```
-
+OR 
+```bash
+./ghinstaller
+```
 ### How to Use
 
 1. Enter a GitHub repository in the format `owner/repo` (e.g., `sharkdp/bat`)
 2. Click **Fetch repository info** to load repository details and releases
 3. Select a release from the list to view its available assets
-4. Click on an asset to download it to the current directory
+4. Click on an asset to download it to the chosen directory
 5. Monitor download progress and logs in the output panel
 
 ## Project Structure
@@ -78,7 +81,3 @@ ghinstaller/
 
 ### `gui/main_window.py`
 - `MainWindow` - The main application window with all UI components and event handlers
-
-## License
-
-MIT
